@@ -1,7 +1,7 @@
-# ca-fires-history
+# wie-covid-history
 
-Tracking fire data from www.fire.ca.gov/incidents
+Tracking covid data from https://www.wiesbaden.de/leben-in-wiesbaden/gesundheit/gesundheitsfoerderung/coronafallzahlen.php
 
-This repo archives the latest version of https://www.fire.ca.gov/umbraco/Api/IncidentApi/GetIncidents every twenty minutes, if it has changed.
+This repo archives the latest version of https://www.wiesbaden.de/leben-in-wiesbaden/gesundheit/gesundheitsfoerderung/coronafallzahlen.php every hour, if it has changed.
 
-Background on this project: [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
+Based on this excellent article: [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/)
