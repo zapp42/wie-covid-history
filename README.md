@@ -1,5 +1,7 @@
 # wie-covid-history
 
+Chart: https://zapp42.github.io/wie-covid-history/index.html
+
 Tracking covid data from https://www.wiesbaden.de/leben-in-wiesbaden/gesundheit/gesundheitsfoerderung/coronafallzahlen.php
 
 This repo archives the latest version of https://www.wiesbaden.de/leben-in-wiesbaden/gesundheit/gesundheitsfoerderung/coronafallzahlen.php every hour, if it has changed.
