@@ -25,8 +25,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         python3 main.py > data.html
-        echo "date,value" > data.csv
-        python3 gitlog2csv.py >> data.csv
+        echo "date,value" > docs/data.csv
+        python3 gitlog2csv.py >> docs/data.csv
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
