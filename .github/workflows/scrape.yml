@@ -30,6 +30,8 @@ jobs:
       run: |-
         python3 main.py > data.html
         echo "date,value" > docs/data.csv
+        git status
+        git log --oneline
         python3 gitlog2csv.py >> docs/data.csv
     - name: Commit and push if it changed
       run: |-
