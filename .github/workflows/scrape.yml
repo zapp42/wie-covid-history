@@ -20,7 +20,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        sudo apt-get install language-pack-de
+        locale -a
+        sudo locale-gen de_DE
+        sudo locale-gen de_DE.UTF-8
+        sudo update-locale
     - name: Check out this repo
       uses: actions/checkout@v2
     - name: Fetch latest data

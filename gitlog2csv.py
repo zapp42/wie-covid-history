@@ -15,7 +15,7 @@ State = Enum('State', 'INZIDENZ DATE')
 state = State.DATE
 current_date = ""
 date_inz = {}
-locale.setlocale(locale.LC_TIME, "de_DE")
+locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
 for line in output.split("\n"):
     if re.match(r'^\+.*Fallzahlen', line):
         date_match = re.match(r'^.*Stand: [^,]*, ([^,]*).*', line)
