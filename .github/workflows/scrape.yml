@@ -26,6 +26,8 @@ jobs:
         sudo update-locale
     - name: Check out this repo
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - name: Fetch latest data
       run: |-
         python3 main.py > data.html
